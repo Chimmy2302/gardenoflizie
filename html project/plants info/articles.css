@@ -1,0 +1,31 @@
+.artikulo {
+    background-color: #E9EFC0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color:black;
+    padding: 50px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.picture {
+    float: left;
+    width: 350px;
+    border-radius: 50px 10px;
+    padding:20px;
+}
+
+.pindutan {
+    padding:20px;
+    background-color: #4E944F;
+    color:#E9EFC0;
+    border-color: #4E944F;
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;
+}

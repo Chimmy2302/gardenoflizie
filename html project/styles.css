@@ -1,0 +1,197 @@
+body {
+    background-image: url(bgimg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    background-size:cover;
+    font-family: myfont;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Lora-Regular.ttf);
+}
+
+
+header {
+    background-color: #4E944F;
+    height: 85px;
+    margin:0px;
+}
+
+
+hr {
+    border-color: black;
+}
+
+/*title part*/
+div.firstone {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width:98%;
+    padding: 13px;
+    text-align: center;
+    font-size: 100px;
+}
+
+/*quotation part ============================================ quotation part ========================================= quotation part*/
+div.indexsecond {
+    background-color: #E9EFC0;
+    width:100%;
+    height:200%;
+
+}
+
+p.quote {
+    font-size: 70px;
+    padding:5px;
+}
+
+div.indexsecond2 {
+    padding:100px;
+}
+/*selection =========================================== selection =============================================== selection*/
+.selection {
+    width:80%;
+    height:200px;
+    margin: auto;
+    border-radius: 300px 10px;
+    display:flex;
+    transition:1s;
+    
+}
+
+.selection:hover {
+    transform:scale(1.2);
+}
+
+.selection_image {
+    width:100%;
+    object-fit:cover;
+    object-position: bottom;
+    border-radius: 300px 10px;
+    position:relative;
+}
+
+.image_ovelay:hover {
+    opacity:1;
+}
+
+.image_ovelay {
+    border-radius: 300px 10px;
+    position: absolute;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    opacity:0;
+    transition: 0.25s;
+    width: 100%;
+}
+
+
+.image_ovelay--blur {
+    backdrop-filter: blur(1px);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight:bold;
+}
+
+.image__description {
+    font-size:1.25em;
+    margin-top: 0.25em;
+    text-align: center;
+}
+
+.selection_button {
+    color:white;
+    border-color: white;
+    background-color: rgba(0,0,0,0);
+    height:30px;
+    width:auto;
+    border-radius: 10px;
+    margin:2px;
+}
+
+
+/*selection ============================ selection ===================================== selection ===================*/
+
+
+
+/*navigation ======================================== navigation ========================================== navigation */
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+li{
+    float:right;
+    margin:20px 5px;
+}
+
+li a {
+    display:block;
+    color:#E9EFC0;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #E9EFC0;
+    color:black;
+}
+
+
+/*footer and contents ============================== footer and content ============================================*/
+footer{
+    background-color: #4E944F;
+    margin:0;
+    height:auto;
+    padding:3px;
+}
+
+footer p, h1, table{
+    margin:0px 50px;
+    padding:10px;
+    color: white;
+}
+.horirule {
+    border-color: #E9EFC0;
+}
+
+th, td {
+    padding:10px;
+}
+
+/* <a> sa footer =================================== <a> sa footer ======================== <a> sa footer =====*/
+.sapaa {
+    color:#E9EFC0;
+    margin:0px 50px;
+    padding:10px;
+    text-decoration: none;
+}
+
+.fardestdown {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:3px;
+    margin:0;
+    border-color:black;
+}
+
+.tbcontent {
+    text-align: left;
+    padding: 10px;
+    width:70%;
+}
